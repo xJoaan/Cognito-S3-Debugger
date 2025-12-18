@@ -44,15 +44,15 @@ El archivo clave para la configuración de AWS es `src/aws-config.js`. Debes ree
 // src/aws-config.js
 const awsConfig = {
   cognitoUserPool: {
-    UserPoolId: 'eu-west-1_MlLRSfDwx',
-    ClientId: '5o91kbhujvgc27kq69jgr5btp7',
+    UserPoolId: '',
+    ClientId: '',
   },
   cognitoIdentityPool: {
-    IdentityPoolId: 'eu-west-1:56b06eda-b2c6-4962-86e0-4321acd52d51',
+    IdentityPoolId: '',
   },
   s3: {
-    BucketName: 'msi-twinspulse',
-    Region: 'eu-west-1',
+    BucketName: '',
+    Region: '',
   },
 };
 ```
